@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CC6613D4-E71E-4FD2-BB6E-21F9A95F9CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinopoisk", "src\KinopoiskNET\Kinopoisk.csproj", "{D9F427F4-B5C6-4084-A6A9-F4A4AF1D5246}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{28242471-CB34-47D7-A76D-8268E0139574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinopoisk.Tests", "test\KinopoiskNET.Tests\Kinopoisk.Tests.csproj", "{58B733B5-F822-4C3E-994F-D08DB9BBDBB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9F427F4-B5C6-4084-A6A9-F4A4AF1D5246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F427F4-B5C6-4084-A6A9-F4A4AF1D5246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F427F4-B5C6-4084-A6A9-F4A4AF1D5246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F427F4-B5C6-4084-A6A9-F4A4AF1D5246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B733B5-F822-4C3E-994F-D08DB9BBDBB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B733B5-F822-4C3E-994F-D08DB9BBDBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B733B5-F822-4C3E-994F-D08DB9BBDBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B733B5-F822-4C3E-994F-D08DB9BBDBB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9F427F4-B5C6-4084-A6A9-F4A4AF1D5246} = {CC6613D4-E71E-4FD2-BB6E-21F9A95F9CE5}
+		{58B733B5-F822-4C3E-994F-D08DB9BBDBB0} = {28242471-CB34-47D7-A76D-8268E0139574}
+	EndGlobalSection
+EndGlobal
